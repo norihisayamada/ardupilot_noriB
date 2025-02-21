@@ -22,8 +22,9 @@ import textwrap
 import time
 import shlex
 import binascii
+import pymavlink
 
-from pymavlink import mavextra
+#from pymavlink import mavextra
 from pysim import vehicleinfo
 
 # List of open terminal windows for macosx
